@@ -221,7 +221,7 @@ footer{
 	border-radius: 20px;
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 432px){
 	.btn2{margin-top: 10px;}
 }
 
