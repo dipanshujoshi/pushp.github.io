@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
 	font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta name="google-site-verification" content="c0UcX5boVFZ1H42KbaK12f5IBq-t1r7PvFT8ulRPngA" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body> 
 <header>
@@ -37,12 +38,25 @@
 <footer>
 <div>
 <h2 class="contect">Contect Us</h2>
-<ul class="log">
-<a href="https://youtu.be/Nmd2HSVyXIs"><li><img src="image/youtube.png" class="all-logo1"></li></a>
-<a href="abaut us.html"><li><img src="image/contect.png" class="all-logo"></li></a>
-<a href="gallery.html"><li><img src="image/admin.png" class="all-logo"></li></a>
-</ul>
+<div class="log">
+<a href="https://youtu.be/Nmd2HSVyXIs"><i class="fa fa-user"></i></a>
+<a href="abaut us.html"><i class="fa fa-phone"></i></a>
+<a href="gallery.html"><i class="fa fa-youtube"></i></a>
+</div>
 </div>
 </footer>
+<div class="hading">
+<h3>Admition form</h3>
+<h4>Fill this form<h4>
+</div>
+<div class="contect-form">
+<form id="contect-form" method="post" action="contect-form.php">
+<input type="text" name="name" placeholder="Your name" required class="form-control"><br>
+<input type="text" name="email" placeholder="Your email" required class="form-control"><br>
+<input type="text" name="phone number" placeholder="Your phone number" required class="form-control"><br>
+<textarea type="text" name="message" placeholder="Your message" required class="form-control" row="4"></textarea><br>
+<input type="submit" name="phone number" value="send message" class="form-control submit">
+</form>
+</div>
 </body>
 </html>

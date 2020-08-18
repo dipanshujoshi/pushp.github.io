@@ -122,10 +122,10 @@ h1{
 
 
 @keyframes colorchangdim{
-	0%{color: blue;}
+	0%{color: gray;}
 	25%{color: white;}
 	50%{color: #7BD81E;}
-	100%{color: gray;}
+	100%{color: #7BD81E;}
 }
 
 .mobilenav{display: none;}
@@ -162,8 +162,6 @@ h1{
 	margin-top: 30px;
 	margin-right: 25px;
 	}
-	.log li{display: none;}
-	footer{display: none;}
 }
 
 
@@ -181,27 +179,10 @@ footer{
 	background-color: gray;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 80vh;
+	height: 100vh;
 }
 
-.log li{
-	float: right;
-	list-style: none;
-	margin-left: 100px;
-	margin-top: 300px;
-	
-	
-}
 
-.all-logo1{
-	height: 90px;
-	margin-right: 500px;
-	
-}
-
-.all-logo{
-	height: 90px;
-}
 
 .contect{
 	text-align: center;
@@ -225,7 +206,77 @@ footer{
 	.btn2{margin-top: 10px;}
 }
 
+.log{
+color: #BCFD7B;
+font-size: 100px;
+text-align: center;
+margin-top: 200px;
+word-spacing: 50px;
+}
 
+.log ,a{
+	color: #BCFD7B;
+}
+
+@media only screen and (max-width: 380px){
+	.log{word-spacing: 0px;}
+}
+
+form{
+	background-color: gray;
+	height: 100vh;
+}
+
+.hading{
+	background-color: gray;
+	text-align: center;
+	font-size: 50px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+form{
+	padding-top: 50px;
+	transition: all 0.6s ease-in-out;
+	text-align: center;
+
+}
+
+.form-control{
+	width: 600px;
+	border: none;
+	outline: none;
+	color: black;
+	background: #BCFD7B;
+	border-bottom: 1px solid gray;
+	font-size: 18px;
+	padding-bottom: 16px;
+}
+
+input{
+	height: 45px;
+}
+
+form .submit{
+	background: #BCFD7B;
+	border-color: transparent;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	padding-top: 10px;
+}
+
+form .submit:hover{
+	background-color: green;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 414px){
+	form .submit{width: 350px}
+	.form-control{width: 350px;}
+}
 
 
 
